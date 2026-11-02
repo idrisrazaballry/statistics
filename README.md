@@ -24,4 +24,21 @@ A production-ready documentation template and implementation guide for foundatio
 
 ## 🗺️ System Architecture
 
-
+[ Raw Data Stream ]
+│
+▼
+[ Data Preprocessing & Cleansing ]
+│
+┌────────────────────┴────────────────────┐
+▼                                         ▼
+[ Descriptive Module ]                    [ Inferential Pipeline ]
+├── Central Tendency                      ├── Parameter Estimation
+├── Dispersion Metrics                   ├── Hypothesis Engine
+└── Distribution Shape                    └── Statistical Significance
+│                                         │
+└────────────────────┬────────────────────┘
+▼
+[ Advanced Predictive Models ]
+├── Linear/Logistic Regression
+├── ANOVA / GLM
+└── Time Series Analysis
