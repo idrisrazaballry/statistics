@@ -111,3 +111,26 @@ Mathematical frameworks utilized to predict exact variable behavior across deter
 ## 🔬 Module 3: Inferential Statistics
 
 Inferential statistics derive broader conclusions about absolute populations by processing representative sample sets.
+
+[ State Hypotheses ]
+( H0 vs. Ha, Alpha )
+│
+▼
+[ Check Assumptions Profile ]
+( Normality, Variance Independence )
+│
+┌─────────────┴─────────────┐
+▼                           ▼
+Passed Assumptions?        Failed Assumptions?
+│                           │
+▼                           ▼
+[ Parametric Tests ]       [ Non-Parametric Tests ]
+( t-test, ANOVA )          ( Wilcoxon, Kruskal )
+│                           │
+└─────────────┬─────────────┘
+▼
+[ Compute p-value ]
+│
+▼
+[ Evaluate Significance Alpha ]
+Reject H0 if p-value <= Alpha
