@@ -134,3 +134,83 @@ Passed Assumptions?        Failed Assumptions?
 ▼
 [ Evaluate Significance Alpha ]
 Reject H0 if p-value <= Alpha
+
+### Parametric Hypothesis Engine Matrix
+
+#### Student's t-Test
+* **Use Case:** Compares means across two sample groups.
+* **Assumptions:** Continuous data scales, independent observations, normal group distributions, homogeneous variance metrics.
+
+#### Analysis of Variance (ANOVA)
+* **Use Case:** Evaluates mean variance across three or more isolated sample groups.
+* **Assumptions:** Balanced internal variance across compared groups, absolute residual normality.
+
+#### Chi-Square (χ²) Test of Independence
+* **Use Case:** Determines structural relationship profiles between two discrete categorical variables.
+* **Assumptions:** Expected cell count frequencies inside contingency tables must register ≥ 5.
+
+---
+
+## 🔮 Module 4: Advanced Statistical Modeling
+
+### Generalized Linear Models (GLM)
+
+#### Ordinary Least Squares (OLS) Linear Regression
+Models continuous target parameters using a linear combination of independent input features:
+\[Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_n X_n + \epsilon\]
+
+#### Logistic Regression
+Predicts categorical classification parameters via log-odds mapping passing through a standard sigmoidal transformation interface:
+\[\ln\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1 X_1 + \dots + \beta_n X_n\]
+
+### Dimension Reduction Frameworks
+* **Principal Component Analysis (PCA):** Projects highly correlated multidimensional feature sets onto uncorrelated orthogonal coordinate axes. Maximizes variance tracking across compressed data spaces.
+
+---
+
+## 🔄 Experimental Workflow Pipeline
+
+To ensure computational reproducibility, execute analytical tasks following this strict processing path:
+
+1. **A Priori Power Calculation:** Compute the minimum necessary sample group sizes required to safely detect expected effect sizes without inflating Type II error risks (β).
+2. **Hypothesis Declaration:** Explicitly document the core Null Hypothesis (H₀) along with your alternative working research framework (\(H_a\)).
+3. **Exploratory Data Phase (EDA):** Assess baseline data properties using visual distribution charts, normality checks, and correlation checks.
+4. **Statistical Execution:** Route clean target variables through designated parametric or non-parametric analytical execution logic.
+5. **Post-Hoc Verification:** Adjust resulting statistical p-values using Bonferroni correction algorithms if processing multi-comparison matrix sets.
+
+---
+
+## 🛡️ Data Validation & Governance
+
+Data engineering pipelines feeding this framework must conform to core academic metadata standards:
+
+* **Missing Data Interception:** Systematically account for blank cells or missing records using consistent markers like `NaN` or `-999`. Document chosen data interpolation steps.
+* **Outlier Verification:** Evaluate extreme data variations using the 1.5 × IQR outlier boxplot filter before processing models.
+* **Temporal Tracking Formats:** Standardize all internal database time properties to match strict **ISO 8601** formatting guidelines (`YYYY-MM-DDThh:mm:ssZ`).
+
+---
+
+## 🧪 Contributing & Testing
+
+We welcome analytical optimization pull requests. Maintain reliability metrics by executing unit tests prior to code deployment.
+
+### Running Python Unit Tests
+```bash
+# Execute standard statistical test suites
+pytest tests/test_descriptive.py
+pytest tests/test_inferential.py
+```
+
+### Coding Conventions
+* Follow standard **PEP 8** style guidelines for all Python mathematical modules.
+* Document all complex algorithmic functions using comprehensive Docstring formats detailing equation inputs and outputs.
+
+---
+
+## 📄 License & Citations
+
+This analytical guide and source code framework are open-source and licensed under the terms of the **MIT License**.
+
+### Reference Contexts
+* For data template patterns, review the [Harvard Biomedical Data Management Framework](https://harvard.edu).
+* For structural documentation metadata guidelines, consult the [Princeton Research Lifecycle Documentation Standards](https://princeton.edu).
